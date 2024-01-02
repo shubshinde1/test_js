@@ -18,3 +18,6 @@ let arr = ["sup", "bat", "xmen"];
 for (const indx in arr) {
     console.log(`${indx} : ${arr[indx]}`);
 }
+
+// Map in for_in loop
+// actually Map is not iterrable and to the non iterrables we can not itererate with forin loop 
