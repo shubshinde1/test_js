@@ -10,12 +10,12 @@
 
 // ++++++ hoisting +++++++
 // calling or accessing funtion befor declering
-// console.log(addtwo(6));
-// function addtwo(num) {
-//     return num + 1
-// }
+console.log(addtwo(6));
+function addtwo(num) {
+    return num + 1
+}
 
-//if we store the funtion in variable like below
+// if we store the funtion in variable like below
 // const addtwo = function(num){}
 // then we cant call or access it bofore
 
